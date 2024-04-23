@@ -1,0 +1,3276 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+
+
+
+.content {
+    width: 100%;
+}
+
+.first {
+    padding-top: 50px;
+	background: #fff;
+    height: 970px;
+    width: 100%;
+}
+
+.first h1 {
+	font-size: 70px;
+    font-weight: 700;
+	    color: #000;
+    text-shadow: 7px 0px 5px rgba(131, 131, 131, 0.52);
+}
+
+
+
+.cards{
+	display: flex;
+	background-color: #fff;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: flex-end;
+	flex-wrap: wrap;
+    vertical-align: top;
+}
+
+.card {
+	background-color: #fff;
+        vertical-align: top;
+        border-bottom: 3px solid #0d6cb42f;
+    border-radius: 10px;
+	width: 400px;
+	padding: 20px;
+	height: 220px;
+	justify-content: center;
+	font-size: 18px;
+	text-decoration: none;
+	color: #000;
+    font-weight: 700;
+	margin-top: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.card h5 {
+    padding-top: 10px;
+}
+.card h4 {
+    vertical-align: middle;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.card h4 i{
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover {
+    color: #fff;
+    background-color: #0D6DB4;
+    border-bottom: 3px solid transparent;
+}
+.card:hover i{
+    padding-left: 5px;
+}
+/* */
+
+.second {
+    background: #0D6DB4;
+}
+.second h1 {
+    padding-top: 20px;
+    font-weight: 700;
+	font-size: 70px;
+	color: #fff;
+    text-shadow: 10px 0px 5px rgba(106, 106, 106, 0.52);
+}
+
+.cards-ready ul li {
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    vertical-align: top;
+    padding: 20px 20px 20px;
+}
+
+.cards-ready .cards:hover {
+    background: #fff;
+}
+
+.cards-ready {
+    height: 975px;
+    background: #0D6DB4;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards-ready .cards {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: text-top;
+    width: 550px;
+    height: 650px;
+    text-align: center;
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    background: transparent;
+    transition: all .5s ease-in-out;
+    -webkit-box-shadow: 0px 0px 42px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 42px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 42px 12px rgba(0, 0, 0, 0.22);
+}
+.cards-ready .cards a {
+    text-decoration: none;
+    color: #fff;
+    transition: all .7s ease-in-out;
+    vertical-align: text-top;
+}
+.cards-ready .cards:hover {
+    color: #000;
+}
+.cards-ready .cards h3 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.cards-ready .cards h4 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.cards-ready .cards p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.cards-ready .cards h5 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+/* */
+
+
+
+/* */
+
+.third {
+    background-image: url("../images/backclck.png");
+    height: 700px;
+    margin-top: 100px;
+    background-position: 60% 40%;
+    background-size: 15%;
+    background-repeat: no-repeat;  
+}
+
+.calculator ul li {
+    display: inline;
+}
+
+.third h1 {
+	font-size: 70px;
+    font-weight: 700;
+	color: #000;
+    text-shadow: 7px 0px 5px rgba(131, 131, 131, 0.52);
+}
+
+.calculator ul{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.calculator ul li {
+    display: inline;
+}
+
+
+
+.calculator .total-price-about{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+.total-price-ruble{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0D6DB4;
+
+}
+
+.calculator .total {
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0D6DB4;
+}
+.calculator input {
+    background: #0D6DB4;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #fff;
+}
+
+.calculator .total-price{
+    width: 200px;
+    height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #fff;
+    background: #0D6DB4;
+    border-radius: 10px;
+    border: 20px solid #0D6DB4;
+}
+
+
+.calculator .title-pc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.calculator .title-serv {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+/* */
+
+
+
+/* */
+
+
+.fourth {
+    height: 570px;
+    position: relative;
+    width: 100%;
+    background-position: 50% 50%;
+    background: url("../images/BACKPROJ.png") no-repeat, #0D6DB4;
+}
+
+.fourth .text-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth h1 {
+    white-space: nowrap;
+	font-size: 70px;
+	color: #fff;
+    font-weight: 700;
+    text-shadow: 10px 0px 5px rgba(106, 106, 106, 0.52);
+}
+
+.fourth ul {
+    padding-left: 20px;
+}
+.fourth h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.fourth p{
+    text-align: left;
+    width: 420px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+}
+
+.fourth .cards{
+	display: flex;
+	background-color: transparent;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: flex-end;
+	flex-wrap: wrap;
+    width: 1200px;
+}
+
+.fourth .card {
+    transition: all .3s ease-in-out;
+	border: 2px solid #fff;
+    width: 450px;
+    height: 220px;
+	padding: 20px;
+	justify-content: center;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 10px;
+    border-radius: 10px;
+}
+.fourth .card h5{
+    transition: all .3s ease-in-out;
+    margin-left: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    font-display: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.fourth .Stroy h5 {
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width: 1376px) {
+    .fourth .Stroy h5 {
+        font-size: 18px !important;
+    }
+}
+@media only screen and (max-width: 1066px) {
+    .fourth .Stroy h5 {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .fourth .Stroy h5 {
+        font-size: 22px !important;
+    }
+}
+@media only screen and (max-width: 755px) {
+    .fourth .Stroy h5 {
+        font-size: 12px !important;
+    }
+}
+@media only screen and (max-width: 645px) {
+    .fourth .Stroy h5 {
+        font-size: 20px !important;
+    }
+}
+@media only screen and (max-width: 374px) {
+    .fourth .Stroy h5 {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 374px) {
+    .fourth .Stroy h5 {
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 302px) {
+    .fourth .Stroy h5 {
+        font-size: 11px !important;
+    }
+}
+.fourth .card p{
+    transition: all .3s ease-in-out;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.fourth .Forward{
+    background: url("../images/project/for.png") no-repeat;
+    background-position: 10px 10px;
+    transition: all .1s ease-in-out;
+}
+
+.fourth .Forward:hover {
+    background: url("../images/project/forh.png") no-repeat;
+    background-position: 20px 10px;
+}
+.fourth .OKEI{
+    background: url("../images/project/okei.png") no-repeat;
+    background-position: 10px 10px;
+    transition: all .1s ease-in-out;
+}
+
+.fourth .OKEI:hover {
+    background: url("../images/project/okeih.png") no-repeat;
+    background-position: 20px 10px;
+}
+.fourth .Nayka{
+    background: url("../images/project/nayka.png") no-repeat;
+    background-position: 10px 10px;
+    transition: all .1s ease-in-out;
+}
+
+.fourth .Nayka:hover {
+    background: url("../images/project/naykah.png") no-repeat;
+    background-position: 20px 10px;
+}
+.fourth .Stroy{
+    background: url("../images/project/Stroyh.png") no-repeat;
+    background-position: 10px 10px;
+    transition: all .1s ease-in-out;
+}
+
+.fourth .Stroy:hover {
+    background: url("../images/project/Stroy.png") no-repeat;
+    background-position: 20px 10px;
+}
+.fourth .card:hover p{
+    color: #000;
+}
+.fourth .card:hover h5{
+    color: #000;
+}
+
+.fourth .card:hover{
+    background-color: #fff;
+}
+/* */
+
+.fifth {
+    height: 975px;
+    background: #fff;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth .blocks{
+    display:inline-block;
+}
+.fifth .block-left {
+    display: inline-block;
+    float: left;
+    width: 940px;
+}
+
+.fifth h1 {
+    text-shadow: 7px 0px 5px rgba(131, 131, 131, 0.52);
+	font-size: 70px;
+	color: #000;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.fifth .text-about p{
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    width: 780px;
+    color: #000000;
+}
+
+.fifth .block-right{
+    display:inline-block;
+}
+
+.fifth .block-right ul{
+    list-style: none;
+    color:#000;
+}
+
+.fifth .block-right ul li{
+    margin-top: 10px;
+    vertical-align: top;
+    padding: 10px 10px 10px;
+    width: 450px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D6DB4;
+}
+
+.fifth .block-right ul li i{
+    color: #0D6DB4;
+    font-size: 20px;
+}
+.fifth .block-right ul li p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+/* */
+
+/* */
+
+.sixth {
+    height: 450px;
+    background: #0D6DB4;
+    position: relative;
+    width: 100%;
+}
+
+.sixth h2 {
+    font-family: 'Montserrat';
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+.sixth h1 {
+    position: absolute;
+    top: 90px;
+    left: 800px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.forma {
+  padding-top: 30px;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: rgba(240, 240, 240, 0.7);
+  font-size: 16px;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: rgba(240, 240, 240, 0.7);
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: rgba(240, 240, 240, 0.7);
+  font-size: 16px;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: rgba(240, 240, 240, 0.7);
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(240, 240, 240, 0.7);
+  font-size: 16px;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: rgba(240, 240, 240, 0.7);
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: rgba(240, 240, 240, 0.7);
+  font-size: 16px;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: rgba(240, 240, 240, 0.7);
+}
+
+
+
+#form {
+  position: absolute;
+    top: 100px;
+  left: 800px;
+  width: 1000px;
+  margin: 50px auto 100px auto;
+}
+
+#form select {
+      border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(240, 240, 240, 0.3);
+  outline: none;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#form select option{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #237ABB;
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+
+#form input {
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background-color: rgba(240, 240, 240, 0.3);
+  outline: none;
+  color: #fff;
+  
+  border: 1px solid #fff;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#form #submit {
+  width: 200px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: rgba(240, 240, 240, 0.7);
+  
+  outline:none;
+  cursor: pointer;
+
+  border: none;
+}
+
+#submit:hover {
+  color: #fff;
+}
+
+input,
+label {
+    cursor: pointer;
+}
+
+.form_radio_btn {
+  display: inline-block;
+  margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+  display: none;
+}
+.form_radio_btn label {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: none;
+  border-radius: 0;
+  user-select: none;
+  color: rgba(240, 240, 240, 0.7);
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+  color: #fff;
+  background-color: rgba(240, 240, 240, 0.3);
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+  color: #fff;
+  background-color: rgba(240, 240, 240, 0.3);
+}
+ 
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+  background: #efefef;
+  color: rgba(240, 240, 240, 0.7);
+}
+
+/* */
+
+form ul li{
+    display: inline;
+    padding: 5px 5px 5px;
+}
+
+form ul{
+    margin-top: 15px;
+}
+select:focus {
+    color: #fff;
+}
+
+
+
+/* */
+.seventh {
+    height: 730px;
+    background: #0D6DB4;
+    position: relative;
+    width: 100%;
+}
+
+
+.contact-info ul li .contact-info-map {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+  .contact-info {
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .contact-info ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+  
+  .contact-info ul {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+  
+  .contact-info ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul li i{
+    transition: .4s;
+    font-size: 40px;
+  }
+  .contact-info ul li i:hover{
+    color: rgba(131, 189, 255, 0.7);
+  }
+  .contact-info ul li a:hover{
+    color: rgba(131, 189, 255, 0.7);
+  }
+
+.contact-banner {
+    width: 400px;
+    height: 500px;
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    left: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 50px 60px 30px;
+}
+
+.contact-banner h3{
+    float: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 30px;
+}
+.contact-banner h2{
+    float: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 30px;
+}
+.contact-banner h3 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* */
+
+.main {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 970px;
+    background: #0D6DB4;
+}
+.main h2 {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0px;
+    line-height: 90px;
+    text-align: left;
+    width: 1100px;
+    padding-left: 50px;
+}
+
+.main .first-logo {
+    width: 700px;
+}
+.main .mouse-down i{
+    position: absolute;
+    left: 49%;
+    top: 93%;
+    bottom: 0;
+    z-index: 3;
+    color: #fff;
+    font-size: 50px;
+    animation: updown 1s infinite;
+}
+
+@keyframes updown {
+    0% {
+        top: 90%;
+    }
+    50% {
+        top: 91.5%;
+    }
+    100% {
+        top: 90%;
+    }
+}
+
+ nav ul li {
+    vertical-align:middle;
+    text-align: center;
+    display: inline-block;
+}
+nav ul li .navigator {
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: .5s;
+}
+ nav {
+    color: #fff;
+    background: #929292b7;
+    -webkit-box-shadow: 0px 11px 26px 0px rgba(0, 0, 0, 0.27);
+-moz-box-shadow: 0px 11px 26px 0px rgba(0, 0, 0, 0.27);
+box-shadow: 0px 11px 26px 0px rgba(0, 0, 0, 0.27);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    position: fixed;   
+    width: 100%;
+    z-index: 99;
+    transition: .5s;
+    backdrop-filter: blur(10px);
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav .navigator:hover {
+    color: #000000;
+}
+
+ nav i{
+    transform: rotate(-110deg);
+    transition: .5s;
+  }
+  nav .circle:hover i{
+    transform: rotate(110deg);
+  }
+
+.mobail-menu {
+    display: none;
+}
+.mobail-menu:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(255, 255, 255);
+}
+.mobail-menu {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: 0.5s;
+    background: #fff;
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+.mobail-menu-close {
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    z-index: 99999;
+    border: none;
+    right: 10px;
+}
+
+.mobail-menu-close button{
+    border: none;
+    color: #fff;
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.mobail-menu nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    vertical-align: none;
+    text-align: center;
+}
+.mobail-menu nav ul li {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+.mobail-menu nav ul li .navigator {
+    font-size: 50px;
+    padding-left: 0;
+    text-align: center;
+    padding-right: 0;
+    transition: .5s;
+    width: 100%;
+    line-height: 55px;
+    border: 20px solid #0D6DB4;
+    border-radius: 10px;
+}
+
+
+.mobail-menu nav img{
+    width: 20%;
+}
+
+.mobail-menu nav .circle{
+    font-size: 40px;
+  }
+
+  .mobail-menu nav ul li .navigator:hover {
+    background: #fff;
+    color:#0D6DB4;
+    border-width: 100%;
+    border: 20px solid #FFF;
+  }
+
+
+.mobail-menu nav i{
+    transform: rotate(-110deg);
+    transition: .5s;
+    font-size: 40px;
+  }
+  .mobail-menu nav .circle:hover i{
+    transform: rotate(110deg);
+  }
+.mobail-menu nav ul li {
+    text-align: center;
+    display: block;
+}
+.mobail-menu nav ul li .navigator {
+    padding-left: 0;
+    padding-right: 0;
+    transition: .5s;
+}
+.mobail-menu nav {
+    color: #fff;
+    background: #0D6DB4;
+    height: 100%;  
+    width: 100%;
+    z-index: 99;
+    transition: .5s;
+    backdrop-filter: blur(10px);
+}
+
+
+/* Анимации */
+@keyframes scale {
+    0% {
+        transform: scale(0.2);
+        right: -1000px;
+    }
+    100% {
+        transform: scale(1);
+        right: 0px;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes move {
+    0% {
+        right: -80px;
+    }
+    100% {
+        right: 20px;
+    }
+}
+@keyframes bg {
+    0% {
+        background: rgba(51, 122, 183, 0);
+    }
+    100% {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    }
+}
+
+
+/* YSLYGI */
+/* Контейнер, который затемняет страницу */
+.else-modal {
+    display: none;
+}
+.else-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.else-modal .else-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: 50%;
+    height: fit-content;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+.else-cmt h5 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 70px;
+    color: #0D6DB4;
+}
+.else-cmt h4 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    width: 85%;
+}
+.else-cmt h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.else-cmt ul{
+    width: 80%;
+}
+.else-cmt ul li {
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+.else-cmt ul li i {
+    vertical-align: middle;
+    font-size: 20px;
+    color: #0D6DB4;
+}
+#else-bez ul li i {
+    vertical-align: middle;
+    font-size: 15px;
+    color: #0D6DB4;
+}
+#else-tehelp ul li i {
+    vertical-align: middle;
+    font-size: 15px;
+    color: #0D6DB4;
+}
+#else-serv ul li i {
+    vertical-align: middle;
+    font-size: 15px;
+    color: #0D6DB4;
+}
+.else-cmt button {
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+    background: #0D6DB4;
+    border: 2px solid #0D6DB4;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+.else-cmt button:hover {
+    background: #fff;
+    color: #0D6DB4;
+    border: 2px solid #0D6DB4;
+}
+/* Кнопка с крестиком закрывающая окно */
+.else-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.else-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.else-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.else-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.else-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* YSLYGI */
+
+
+
+/* Контейнер, который затемняет страницу */
+.more-modal {
+    display: none;
+}
+.more-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.more-modal .cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: 90%;
+    height: 80%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+.cmt .blocks{
+    display: inline-block;
+    padding: 0px 0px 0px !important;
+}
+
+.cmt .block-left {
+    text-align: center;
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+}
+
+
+.cmt .block-left ul li{
+    font-family: 'Montserrat';
+    padding: 10px 10px 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.cmt .block-left ul li strong{ 
+    color: #0D6DB4;
+}
+.cmt .block-left h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 29px;
+    color: #000;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.cmt .block-right {
+    padding-top: 60px;
+    padding-left: 10px;
+    height: 800px;
+    width: 50%;
+    display: inline-block;
+}
+.cmt .block-left .logo-name ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cmt .block-left .logo-name ul li h2{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 50px;
+    color: #000; 
+}
+.cmt .block-left p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    padding-top: 20px;
+    width: 600px;
+}
+
+.cmt .block-right h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #0D6DB4; 
+}
+.cmt .block-right h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 29px;
+    color: #000;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.cmt .block-right ul li{
+    width: 800px;
+    padding: 5px 5px 5px;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.cmt .block-right ul li strong{ 
+    color: #0D6DB4;
+}
+
+.cmt .block-right ul li a{
+    text-decoration: none;
+    color: #0D6DB4;
+}
+/* Кнопка с крестиком закрывающая окно */
+.css-modal-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.css-modal-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.css-modal-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.css-modal-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.cmt-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* Анимации */
+@keyframes scale {
+    0% {
+        transform: scale(0.2);
+        right: -1000px;
+    }
+    100% {
+        transform: scale(1);
+        right: 0px;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes move {
+    0% {
+        right: -80px;
+    }
+    100% {
+        right: 20px;
+    }
+}
+@keyframes bg {
+    0% {
+        background: rgba(51, 122, 183, 0);
+    }
+    100% {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    }
+}
+
+
+
+
+
+
+.eighth {
+    height: 230px;
+    position: relative;
+    width: 100%;
+}
+
+.eighth h1 {
+	font-size: 70px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: 7px 0px 5px rgba(131, 131, 131, 0.52);
+}
+
+.eighth .brends {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:flex-start;
+}
+@media only screen and (max-width: 1201px) {
+    .eighth .brends {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .eighth {
+        height: 1075px;
+        position: relative;
+        width: 100%;
+    }
+}
+
+  .eighth .brend1{
+  cursor: pointer;
+    background: url("../images/table/dns.png");
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 200px; height: 200px;
+    transition: .5s ease-in-out;
+}
+.eighth .brend1:hover {
+        background-image: url("../images/table/dnsh.png");
+        position: -200px bottom;
+}
+.eighth .brend1:not(:hover){
+    transition: .5s;
+}
+.eighth .brend2:not(:hover){
+    transition: .5s;
+}
+.eighth .brend3:not(:hover){
+    transition: .5s;
+}
+.eighth .brend4:not(:hover){
+    transition: .5s;
+}
+.eighth .brend5:not(:hover){
+    transition: .5s;
+}
+.eighth .brend2{
+  cursor: pointer;
+    background: url("../images/table/1ch.png");
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 200px; height: 200px;
+    transition: .5s ease-in-out;
+}
+.eighth .brend2:hover {
+        background-image: url("../images/table/1c.png");
+        position: -200px bottom;
+}
+
+.eighth .brend3{
+  cursor: pointer;
+    background: url("../images/table/cth.png");
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 200px; height: 200px;
+    transition: .5s ease-in-out;
+}
+.eighth .brend3:hover {
+        background-image: url("../images/table/ct.png");
+        position: -200px bottom;
+}
+
+.eighth .brend4{
+  cursor: pointer;
+    background: url("../images/table/atolh.png");
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 200px; height: 200px;
+    transition: .5s ease-in-out;
+}
+.eighth .brend4:hover {
+        background-image: url("../images/table/atol.png");
+        position: -200px bottom;
+}
+
+.eighth .brend5{
+  cursor: pointer;
+    background: url("../images/table/psh.png");
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 200px; height: 200px;
+    transition: .5s ease-in-out;
+}
+.eighth .brend5:hover {
+        background-image: url("../images/table/ps.png");
+        position: -200px bottom;
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1140px) {
+.fifth h1 {
+	font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.first h1 {
+	font-size: 50px;
+    font-weight: 700;
+}
+.eighth h1 {
+	font-size: 50px;
+    font-weight: 700;
+}
+.fourth h1 {
+    white-space: nowrap;
+	font-size: 50px;
+    font-weight: 700;
+}
+.third h1 {
+	font-size: 50px;
+    font-weight: 700;
+}
+.second h1 {
+    padding-top: 20px;
+    font-weight: 700;
+	font-size: 50px;
+}
+}
+@media only screen and (max-width: 805px) {
+    .fifth h1 {
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .first h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .eighth h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .fourth h1 {
+        white-space: nowrap;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .third h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .second h1 {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .fifth h1 {
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .first h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .eighth h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .fourth h1 {
+        white-space: nowrap;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .third h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .second h1 {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 384px) {
+    .fifth h1 {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .first h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .eighth h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .fourth h1 {
+        white-space: nowrap;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .third h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .second h1 {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .fifth h1 {
+        font-size: 18px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .first h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .eighth h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .fourth h1 {
+        white-space: nowrap;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .third h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .second h1 {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 290px) {
+    .fifth h1 {
+        font-size: 14px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .first h1 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .eighth h1 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .fourth h1 {
+        white-space: nowrap;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .third h1 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .second h1 {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1710px) {
+    .third {
+        background-image: url("../images/backclck.png");
+        background-position: 60% 30%;
+        background-size: 20%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 1564px) {
+    .third {
+        background-image: url("../images/backclck.png");
+        background-position: 60% 40%;
+        background-size: 20%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 1292px) {
+    .third {
+        background-image: url("../images/backclck.png");
+        background-position: 60% 40%;
+        background-size: 23%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 1140px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 60% 35%;
+        background-size: 23%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 1070px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 60% 35%;
+        background-size: 25%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 978px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 70% 30%;
+        background-size: 30%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 905px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 60% 33%;
+        background-size: 30%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 845px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 70% 35%;
+        background-size: 33%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 805px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 60% 20%;
+        background-size: 40%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 750px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 75% 20%;
+        background-size: 40%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 715px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 75% 30%;
+        background-size: 40%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 611px) {
+    .third {
+        background-image: url("../images/backckcc.png");
+        background-position: 90% 20%;
+        background-size: 50%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 584px) {
+    .third {
+        background-image: url("../images/backksd.png");
+        background-position: 70% 30%;
+        background-size: 35%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 534px) {
+    .third {
+        background-image: url("../images/backksd.png");
+        background-position: 75% 30%;
+        background-size: 35%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 496px) {
+    .third {
+        background-image: url("../images/backksd.png");
+        background-position: 80% 30%;
+        background-size: 40%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 442px) {
+    .third {
+        background-image: url("../images/backksd.png");
+        background-position: 80% 30%;
+        background-size: 44%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 419px) {
+    .third {
+        background-image: url("../images/backs.png");
+        background-position: 80% 40%;
+        background-size: 80%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 325px) {
+    .third {
+        background-image: url("../images/backs.png");
+        background-position: 80% 45%;
+        background-size: 85%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+@media only screen and (max-width: 281px) {
+    .third {
+        background-image: url("../images/backs.png");
+        background-position: 80% 60%;
+        background-size: 100%;
+        background-repeat: no-repeat;  
+    }
+    
+}
+
+
+
+
+/* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 30px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 800px;
+    line-height: 22px;
+    font-size: 20px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 18px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 30px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+/* YSLYGI */
+
+@media only screen and (max-width:1510px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 30px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 600px;
+    line-height: 22px;
+    font-size: 20px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 18px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 30px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+
+@media only screen and (max-width:1310px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 85%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 30px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 400px;
+    line-height: 15px;
+    font-size: 14px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 18px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 30px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+
+@media only screen and (max-width:1110px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 85%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 30px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 300px;
+    line-height: 13px;
+    font-size: 12px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 30px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+@media only screen and (max-width:960px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 85%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 20px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 300px;
+    line-height: 13px;
+    font-size: 12px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 20px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+@media only screen and (max-width:855px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 85%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 16px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 250px;
+    line-height: 13px;
+    font-size: 12px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 16px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+@media only screen and (max-width:765px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 92%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 200px;
+    line-height: 13px;
+    font-size: 12px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 16px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+@media only screen and (max-width:705px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 92%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 200px;
+    line-height: 13px;
+    font-size: 12px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 10px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 16px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+@media only screen and (max-width:605px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: fit-content;
+    height: 87%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 150px;
+    line-height: 11px;
+    font-size: 10px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 10px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 16px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+}
+
+}
+@media only screen and (max-width:545px) {
+    /* table */
+/* Контейнер, который затемняет страницу */
+.price-modal {
+    display: none;
+}
+.price-modal:target {
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    z-index: 101;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: bg 0.5s ease;
+    background: rgba(39, 39, 39, 0.7);
+}
+ 
+/* Модальное окно */
+.price-modal .price-cmt {
+    font-size: 16px;
+    padding: 20px;
+    width: 1200px;
+    height: 87%;
+    z-index: 101;
+    transition: 0.5s;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    overflow: none;
+    animation: scale 0.5s ease;
+    overflow: scroll;
+}
+
+/* Кнопка с крестиком закрывающая окно */
+.price-cmt-close {
+    position: absolute;
+    color: rgb(85, 85, 85);
+    top: 110px;
+    z-index: 99999;
+    border: none;
+    right: 120px;
+}
+
+.price-cmt-close button{
+    border: none;
+    color: rgba(78, 78, 78, 0.5);
+    background: transparent;
+    font-size: 35px;
+    animation: opacity 0.5s ease-in-out;
+}
+
+.price-cmt-close:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-radius: 12px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    animation: move 0.5s ease;
+}
+.price-cmt-close:before {
+    left: 0;
+    top: 0;
+    position: fixed;
+    content: "";
+    cursor: default;
+}
+
+
+.price-close{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.price table tr td {
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    width: 20%;
+    padding-bottom: 20px;
+    
+}
+
+.price table tr td h4 {
+    font-size: 14px;
+    color: #000;
+}
+.price table tr .name h3{
+    width: 300px;
+    line-height: 15px;
+    font-size: 14px;
+}
+.price table tr td h3 {
+    white-space:pre-wrap;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+}
+.price table tr td h2 {
+    font-size: 13px;
+    color: #000;
+}
+.price table tr td .fa-check {
+    font-size: 22px;
+    color: rgb(0, 255, 0);
+}
+.price table tr td .fa-xmark {
+    font-size: 22px;
+    color: red;
+}
+.price table {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    background: #fff;
+    width: 1000px;
+}
+
+
+
+}
